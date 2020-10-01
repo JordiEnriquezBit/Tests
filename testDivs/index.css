@@ -1,0 +1,36 @@
+#central{
+    display: flex;   
+    flex-wrap: wrap;
+}
+
+#div1{
+    width: 500px; 
+    order: 1; 
+    height: 200px; 
+    float: left; 
+    background-color: rgb(211, 203, 203);
+}
+
+#div2{
+    width: 500px; 
+    order: 2;  
+    float: left; 
+    background-color: black
+}
+
+@media screen and (max-width: 1015px) {
+    #div1{
+        width: 500px; 
+        order: 2; 
+        height: 200px; 
+        float: left; 
+        background-color: rgb(211, 203, 203);
+    }
+    
+    #div2{
+        width: 500px; 
+        order: 1;  
+        float: left; 
+        background-color: black
+    }
+  }

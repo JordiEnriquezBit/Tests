@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('//db.onlinewebfonts.com/c/d85e6ab19860a0a1cc2c3d7a3eb7f98c?family=Monotype+Corsiva');
 body{
     min-width: 1010px;
     font: normal normal 14px Open Sans;
@@ -153,7 +154,6 @@ body{
 
 .titleSection{
     color: #3399ff !important;
-    font: normal normal 50px Corsiva;
-    font-family: 'Dancing Script', cursive;
+    font: normal normal 50px Monotype Corsiva;
 
 }
