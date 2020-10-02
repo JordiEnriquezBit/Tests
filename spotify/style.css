@@ -1,0 +1,110 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Circular, Helvetica, Arial, sans-serif, IosFix;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #222326;
+    background-color: #FFF;
+    margin: 0;
+}
+
+
+.wrap{
+    background: #2D46B9;
+    flex: 1;
+}
+
+#HeaderTop{
+    position: fixed;
+    z-index: 1020;
+    right: 0;
+    left: 0;
+    background: black;
+    top: 0;
+    min-height: 54px;
+    padding-bottom:10px ;
+}
+#HTopDiv1{
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    max-width: 950px;
+    height: 54px;
+    justify-content: space-between;
+    
+}
+#HTopDiv1SubDiv{
+    margin-top: 13px;
+    display: inline-block;
+}
+
+#iconTop{
+    margin: 0;
+    display: flex;
+    height: 27px;
+    width: 89px;
+    color: white;
+    text-decoration:none;
+    background-color: transparent;
+
+
+}
+
+#spanSpotifyIcon{
+    border:0;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    font: 0/0 a;
+
+}
+
+#nav1{
+    display: inline-block;
+    
+
+}
+
+#nav1 > ul{
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    text-decoration: none;
+    list-style: none;
+
+    margin-block-start: -0.5em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+
+}
+#nav1 > ul > li{
+    display: inline-block;
+    font-size: 16px;
+    line-height: inherit;
+    letter-spacing: 0;
+
+
+}
+
+#nav1 > ul > li > a{
+    color: #fff;
+    list-style: none;
+    padding: 28px 17px;
+    display: block;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.separator{
+    margin: auto 17px;
+    display: inline-block;
+    color:  white;
+    background: currentColor;
+    height: 16px;
+    width: 1px;
+}
