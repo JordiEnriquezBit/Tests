@@ -1,0 +1,57 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.grid {
+display: grid;
+height: 100vh;
+grid-template-columns: repeat(20,auto);
+grid-template-rows: repeat(20,auto);
+
+}
+.grid_item {
+    background: black;
+}
+.grid_item1 {
+    grid-row: 5;
+    grid-column: 5;
+    
+}
+.grid_item2 {
+}
+.grid_item3 {
+}
+.grid_item4 {
+}
+.grid_item5 {
+}
+.grid_item6 {
+}
+.grid_item7 {
+}
+.grid_item8 {
+}
+.grid_item9 {
+}
+.grid_item10 {
+}
+.grid_item11 {
+}
+.grid_item12 {
+}
+.grid_item13 {
+}
+.grid_item14 {
+}
+.grid_item15 {
+}
+.grid_item16 {
+}
+.grid_item17 {
+}
+.grid_item18 {
+}
+.grid_item19 {
+}
+.grid_item20 {
+}

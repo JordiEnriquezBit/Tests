@@ -1,0 +1,38 @@
+body {
+    margin:0;
+    padding:0;
+  }
+  .grid {
+      font-size: 15em;
+    display:grid;
+
+    min-height:100vh;
+    padding:1rem;
+    background-color: #DDE1D4;
+    grid-template-areas: 
+            "header header"
+            "bad    empty"
+            "religion religion";
+            grid-template-rows: 15vh 45vh 40fr;
+            grid-template-columns: minmax(20rem, 2fr) minmax(10rem, 1fr);
+            gap: 1rem;
+  }
+  .header {
+    background-color: #000;
+    grid-area: header;
+  }
+  .bad {
+      padding-bottom: -0px;
+    grid-area:bad;
+    display: flex;
+    align-items: flex-end;
+    background-color:#E64036;
+  }
+  .empty {
+    grid-area:empty;
+    background-color:#E64036;
+  }
+  .religion {
+    grid-area:religion;
+    background-color:#E64036;
+  }
